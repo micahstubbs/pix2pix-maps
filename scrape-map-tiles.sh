@@ -21,7 +21,7 @@ cd ../the-ultimate-tile-stitcher
 # source activate py3k
 
 # scrape tiles from building outline map style
-#python scraper.py --poly $MAP_POLY --zoom $ZOOM_LEVEL --url $SLIPPY_MAP_URL_1 --out-dir $OUT_DIR_1
+python scraper.py --poly $MAP_POLY --zoom $ZOOM_LEVEL --url $SLIPPY_MAP_URL_1 --out-dir $OUT_DIR_1
 
 # scrape tiles from satellite imagery map style
 #python scraper.py --poly $MAP_POLY --zoom $ZOOM_LEVEL --url $SLIPPY_MAP_URL_2 --out-dir $OUT_DIR_2
